@@ -18,7 +18,7 @@ Parameter |	Type   |	Description
 params	  | string |	Required. requested Parameter of contact to fetch
 
 Note: Using the above API the user will get the list of contacts based on postal code.
-Example: /api/contacts?postalCode={postalCode}
+Example: http://localhost:9090/api/contacts?postalCode={postalCode} (Change your port number)
 
 ### save new contact
 POST /api/contacts
